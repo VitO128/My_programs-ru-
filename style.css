@@ -1,0 +1,43 @@
+body {
+    background: 
+radial-gradient(
+        circle,
+        #00A6A6,
+        #174A8B 35%,
+        #07152F 80%
+        );
+    background-attachment: fixed;
+}
+.project {
+background:
+linear-gradient(90deg, #00FFFF, #017596);
+    border: 10px solid #000080;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 25px;
+}
+header {
+    background: 
+    radial-gradient(circle, #00FFFF);
+    color: #bbbb00;
+    margin: 10px
+}
+
+ol {
+    list-style: none ;
+    padding-left: 0;
+}
+a:visited{
+    color: #550055;
+}
+a:hover {
+    color: red;
+}
+a:active{
+    color: #15ff00;
+}
+@media (max-width: 600px) {
+    .project {
+        margin: 25px
+    }
+}
