@@ -38,6 +38,7 @@ a:active{
 }
 @media (max-width: 600px) {
     .project {
-        margin: 25px
+        margin: 25px;
+        width: 100%;
     }
 }
