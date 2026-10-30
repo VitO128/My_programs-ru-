@@ -17,9 +17,8 @@ linear-gradient(90deg, #00FFFF, #017596);
     border-radius: 25px;
 }
 header {
-    background: 
-    radial-gradient(circle, #00FFFF);
-    color: #bbbb00;
+    background:
+linear-gradient(90deg, #00FFFF, #017596);
     margin: 10px
 }
 
@@ -36,9 +35,13 @@ a:hover {
 a:active{
     color: #15ff00;
 }
+.mi {
+    color: orangered
+}
 @media (max-width: 600px) {
     .project {
         margin: 25px;
         width: 100%;
+        box-sizing: border-box;
     }
 }
